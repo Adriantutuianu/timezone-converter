@@ -2546,4 +2546,4 @@ export const timeZones = {
             "utc":"+14:00"
         }
     ]
-}
+};
