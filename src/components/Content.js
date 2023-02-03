@@ -11,8 +11,10 @@ const Content = () => {
   console.log("bau", timezonesList);
   return (
     <div>
-      <select name="cars" id="cars">
-        {/* <option value="volvo">set</option> */}
+      <select name="timezone" id="timezone">
+        {timezonesList.map((item) => {
+          return <option value={item.utc}>{item.label}</option>;
+        })}
       </select>
     </div>
   );
