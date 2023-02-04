@@ -2,6 +2,7 @@ import "./App.css";
 import { DateTime } from "luxon";
 import Content from "./components/Content";
 import Footer from "./components/Footer";
+import Header from "./components/Header";
 
 function App() {
   const now = DateTime.now();
@@ -9,6 +10,7 @@ function App() {
 
   return (
     <div className="App">
+      <Header />
       <Content />
       <Footer />
     </div>
