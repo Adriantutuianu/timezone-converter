@@ -1,0 +1,14 @@
+header {
+  min-height: 10vh;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: yellow;
+  background-color: grey;
+  border-bottom: 2px solid black;
+}
+
+h1 {
+  border-bottom: 1px solid black;
+}
